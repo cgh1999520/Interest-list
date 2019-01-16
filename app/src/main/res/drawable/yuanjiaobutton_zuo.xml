@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  
+	<!--点击背景-->
+    <item android:state_pressed="true">
+        <shape>
+			<!--色值-->
+            <solid android:color="@color/cunlan" />
+            <!--圆角-->
+            <corners android:topLeftRadius="6dp" android:bottomLeftRadius="6dp" />   
+        </shape>
+    </item>
+	
+	<!--点击背景-->
+    <item  android:state_checked="true">
+        <shape>
+			<!--色值-->
+            <solid android:color="@color/cunlan" />
+            <!--圆角-->
+            <corners android:topLeftRadius="6dp" android:bottomLeftRadius="6dp" />   
+        </shape>
+    </item>
+	
+	<item>
+		<shape>
+			<corners android:topLeftRadius="6dp" android:bottomLeftRadius="6dp"/>   
+				<solid android:color="@color/huise" />
+		</shape>
+	</item>
+</selector>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">趣清单</string>
+    <string name="main_dibu_menu_zhuye">主页</string>
+    <string name="main_dibu_menu_jiaoliuquan">交流圈</string>
+    <string name="main_dibu_menu_gerenzhongixn">个人中心</string>
+    <string name="main_dibu_menu_qingdanguanli">清单管理</string>
+    <string name="denglu_ed_zhanghao">请输入帐号</string>
+    <string name="denglu_ed_mima">请输入密码</string>
+    <string name="denglu_denglu_bt">点击登录</string>
+    <string name="denglu_zhuce">立即注册</string>
+    <string name="denglu_wangjimima">忘记密码 ?</string>
+    <string name="gerenzhongxin_ruhehuodejifen">如何获得积分？</string>
+    <string name="gerenzhongxin_title">"     个人中心"</string>
+    <string name="gerenzhongxin_dianjidenglu">点击登录</string>
+    <string name="gerenzhongxin_qiandao">签到</string>
+    <string name="zhuce_phone">手机号</string>
+    <string name="zhuce_password">密码</string>
+    <string name="zhuce_yanzhengma">验证码</string>
+    <string name="main_tishidenglu">需要登录！！！</string>
+    <string name="main_tishituichu">确定要退出吗？</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

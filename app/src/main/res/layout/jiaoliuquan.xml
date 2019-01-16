@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/jiaoliuquan"
+	android:layout_width="match_parent"
+	android:layout_height="38dp"
+	android:orientation="vertical">
+
+	<RadioGroup
+		android:layout_height="38dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginRight="38dp"
+		android:layout_marginLeft="38dp"
+		android:gravity="center_vertical"
+		android:layout_marginBottom="3dp"
+		android:layout_marginTop="3dp">
+
+		<RadioButton
+			android:button="@null"
+			android:text="联系人"
+			android:checked="true"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0"
+			android:background="@drawable/yuanjiaobutton_zuo"
+			android:id="@+id/jiaoliuquan_rb_lianxiren"
+			android:gravity="center"/>
+
+		<RadioButton
+			android:button="@null"
+			android:text="好友比拼"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:background="@drawable/yuanjiaobutton_you"
+			android:id="@+id/jiaoliuquan_rb_haoyoubiping"
+			android:gravity="center"/>
+
+	</RadioGroup>
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/jiaoliuquan_view_pager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="@color/baise"/>
+
+</LinearLayout>
+

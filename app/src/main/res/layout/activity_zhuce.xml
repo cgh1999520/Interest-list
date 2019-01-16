@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/cunlan"
+    android:orientation="vertical"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="注册帐号"
+        android:textSize="24sp"
+        android:textColor="@color/baise"
+        android:gravity="center_horizontal"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/baise"
+        android:orientation="vertical"
+        android:padding="22dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp" >
+
+            <ImageView
+                android:id="@+id/activity_zhuce_shoujihao_ig"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/username" />
+
+            <EditText
+                android:id="@+id/login_input_phone_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/activity_zhuce_shoujihao_ig"
+                android:layout_marginTop="8dp"
+                android:background="@color/baise"
+                android:hint="@string/zhuce_phone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_below="@id/activity_zhuce_shoujihao_ig"
+                android:layout_marginTop="10dp"
+                android:background="@color/cunlan" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" >
+
+            <ImageView
+                android:id="@+id/activity_zhuce_mima_ig"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/password" />
+
+            <EditText
+                android:id="@+id/login_input_password_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/activity_zhuce_mima_ig"
+                android:layout_marginTop="8dp"
+                android:background="@color/baise"
+                android:hint="@string/zhuce_password"
+                android:password="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_below="@id/activity_zhuce_mima_ig"
+                android:layout_marginTop="10dp"
+                android:background="@color/cunlan" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" >
+
+            <ImageView
+                android:id="@+id/activity_zhuce_yanzhengma_ig"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/yanzhenma" />
+
+            <EditText
+                android:id="@+id/login_input_code_et"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/activity_zhuce_yanzhengma_ig"
+                android:layout_marginTop="8dp"
+                android:background="@color/baise"
+                android:hint="@string/zhuce_yanzhengma" />
+
+            <Button
+                android:id="@+id/login_request_code_btn"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_toRightOf="@id/login_input_code_et"
+                android:background="@drawable/denglu_button"
+                android:layout_centerVertical="true"
+                android:text="获取验证码"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_below="@id/activity_zhuce_yanzhengma_ig"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/login_request_code_btn"
+                android:background="@color/cunlan" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/login_commit_btn"
+            android:layout_width="240dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/denglu_button"
+            android:text="注册" />
+    </LinearLayout>
+
+</LinearLayout>

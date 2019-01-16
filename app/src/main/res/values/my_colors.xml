@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="yes">#177CDA</color><!--白色 -->
+	<color name="no">#BDBDBD</color><!--白色 -->
+		<color name="baise">#ffffff</color>
+	<color name="cunlan">#2269D4</color>
+	<color name="mibai">#f7f6f6</color>
+	<color name="huise">#9f9f9f</color>
+</resources>

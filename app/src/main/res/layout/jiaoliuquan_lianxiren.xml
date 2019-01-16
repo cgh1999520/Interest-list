@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/baise"
+    android:orientation="vertical"
+    android:id="@+id/jiaoliuquan_lianxiren"
+    android:paddingLeft="@dimen/jiaoliuquan_lianxiren"
+    android:paddingRight="@dimen/jiaoliuquan_lianxiren" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/jiaoliuquan_lianxiren_et_tianjiahaoyou"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="请输入别人帐号"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/jiaoliuquan_lianxiren_bt_tianjiahaoyou"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/jiaoliuquan_sousuo" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/jiaoliuquan_ls_lianxiren"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/huise" >
+    </ListView>
+
+</LinearLayout>
